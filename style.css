@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2e2e2e;
+    color: white;
+    height:100vh;
+    font-family: Arial;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+#title {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+#canvas {
+    border: 5px solid #bbbbbb;
+    border-radius: 20px;
+}
